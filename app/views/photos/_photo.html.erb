@@ -1,0 +1,19 @@
+<table class='table'>
+	<thead>
+    <tr>
+            <th>Username</th>
+            <th>Caption</th>
+            <th>Like_count</th>
+            <th>Image</th>
+    </tr>
+	</thead>
+	<tbody>
+      <tr>
+              <td><%= photo.name %></td>
+              <td><%= photo.price %></td>
+              <td><%= image_tag item.image_url_or_default %></td>
+      </tr>
+    <% end %>
+	</tbody>
+
+	</table>
